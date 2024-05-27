@@ -1,0 +1,21 @@
+.livingSection{
+    background: url(../../../src/assets/reading\ room\ image2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    padding: 250px 0px;
+    color: white;
+    text-align: center;
+
+    & .livingHeading{
+        font-size: 70px;
+        font-weight: 700;
+    }
+
+    & a{
+        color: white;
+    }
+    & .home{
+        color: rgb(206, 206, 206);
+    }
+}

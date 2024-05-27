@@ -1,0 +1,20 @@
+.navbarNav{
+    position: absolute !important;
+    width: 100%;
+    background-color: transparent;
+    & .container{
+        & .navItems{
+            color: white;
+            padding: 0px 15px !important;
+            transition: all 0.3s linear;
+            -webkit-transition: all 0.3s linear;
+            -moz-transition: all 0.3s linear;
+            -ms-transition: all 0.3s linear;
+            -o-transition: all 0.3s linear;
+
+            &:hover{
+                color: rgb(221, 8, 8);
+            }
+        }
+    }
+}

@@ -1,0 +1,47 @@
+#about_section{
+    .aboutMain{
+        background: url(../../../src/assets/aboutmain.jpg) no-repeat;
+        background-size: 100% 100%;
+        padding: 250px 0px;
+        text-align: center;
+        color: white;
+
+        & .aboutHeading{
+            font-size: 70px;
+            font-weight: 700;
+        }
+
+        & .aboutSubheading{
+            font-weight: 700;
+            font-size: 33px;
+        }
+
+        & p{
+            & a{
+                color: white;
+                font-size: 20px;
+            }
+        }
+        .home{
+            color: rgb(207, 207, 207);
+        }
+    }
+
+    .container{
+        padding: 100px 0px;
+        .aboutImg_div{
+            img{
+                width: 100%;
+            }
+        }
+
+        .about_content{
+            padding-top: 50px;
+        }
+        
+        .about_first{
+            margin-bottom: 50px;
+        }
+    }
+
+}

@@ -1,0 +1,73 @@
+.contactMain{
+    background: url(../../../src/assets/contact2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    padding: 250px 0px;
+    color: white;
+    text-align: center;
+
+    & .contactHeading{
+        font-size: 70px;
+        font-weight: 700;
+    }
+
+    & a{
+        color: white;
+    }
+    & .home{
+        color: rgb(206, 206, 206);
+    }
+}
+
+.contact_content{
+    padding: 100px 0px;
+
+    & #des{
+        display: block;
+        width: 100%;
+        outline: none;
+        border: 1px solid rgb(203, 203, 203);
+
+        &::placeholder{
+            padding-top: 5px;
+            padding-left: 10px;
+        }
+    }
+
+    & .describe{
+        margin-top: 30px;
+    }
+    & .topic{
+        margin-top: 30px;
+    }
+}
+
+iframe{
+    width: 100%;
+    height: 100%;
+}
+
+
+.contactBtn{
+    margin-top: 50px;
+    display: inline-block;
+    padding: 6px 15px;
+    border: 1px solid rgb(26, 24, 55);
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+
+    & a{
+        color: black;
+    }
+    &:hover{
+        background-color: rgb(26, 24, 55);
+
+        & a{
+            color: white;
+        }
+    }
+}

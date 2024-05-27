@@ -1,0 +1,22 @@
+.num3{
+    background-color: rgb(26, 24, 55);
+    & a{
+        color: white !important;
+    }
+}
+
+.num22{
+    background-color: white;
+    & a{
+        color: black !important;
+    }
+}
+
+.next-btn1{
+    border: none !important;
+    color: transparent;
+    &:hover{
+        background-color: transparent !important;
+    }
+
+}

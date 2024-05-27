@@ -1,0 +1,36 @@
+.num11{
+    background-color: white;
+    & a{
+        color: black !important;
+    }
+}
+
+
+.num2{
+    background-color: rgb(26, 24, 55);
+    & a{
+        color: white !important;
+    }
+}
+.num33{
+    background-color: white !important;
+    & a{
+        color: black !important;
+    }
+    &:hover{
+        background-color: rgb(26, 24, 55) !important;
+        & a{
+            color: white !important;
+        }
+    }
+}
+
+.prev-btn1{
+    color: black;
+    border: 1px solid rgb(26, 24, 55) !important;
+
+    &:hover{
+        background-color: rgb(26, 24, 55) !important;
+        color: white !important;
+    }
+}

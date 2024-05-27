@@ -1,0 +1,316 @@
+#contentSection{
+    margin-top: 70px;
+    margin-bottom: 50px;
+    & .container{
+        & .col-lg-8{
+            padding-right: 50px;
+            border-right: 1px solid rgb(205, 203, 203);
+
+            & .main-content-div{
+                border-bottom: 1px solid rgb(205, 203, 203);
+            }
+
+            & .content-heading{
+                font-size: 30px;
+                margin-bottom: 7px;
+                line-height: 30px;
+            }
+
+            & .content-date{
+                font-size: 12px;
+                margin-bottom: 7px;
+            }
+
+            & .content-first-img{
+                & img{
+                    width: 100%;
+                }
+            }
+
+            & .content-para{
+                margin: 30px 0px;
+            }
+
+            & .content-btn{
+                display: inline-block;
+                margin-bottom: 50px;
+                color: black;
+                transition: all 0.3s linear;
+                -webkit-transition: all 0.3s linear;
+                -moz-transition: all 0.3s linear;
+                -ms-transition: all 0.3s linear;
+                -o-transition: all 0.3s linear;
+
+                &:hover{
+                    color: rgb(221, 8, 8);
+                }
+                & .rightArrow{
+                    font-size: 8px;
+                }
+                & .rightArrow2{
+                    margin-left: -5px;
+                }
+            }
+
+            .next-previous-div{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-top: 70px;
+                /* margin-bottom: 50px; */
+
+                & .next-previous{
+                    padding: 5px 25px;
+                    border: 1px solid rgb(26, 24, 55);
+                    transition:all 0.3s linear;
+                    -webkit-transition:all 0.3s linear;
+                    -moz-transition:all 0.3s linear;
+                    -ms-transition:all 0.3s linear;
+                    -o-transition:all 0.3s linear;
+                    & a{
+                        color: black;
+                    }
+
+                    &:hover{
+                        background-color: rgb(26, 24, 55);
+                        & a{
+                            color: white;
+                        }
+                    }
+                }
+
+                & .numbers{
+                    padding: 4px 10px;
+                    border: 1px solid rgb(26, 24, 55);
+                    display: inline-block;
+                    margin-left: 10px;
+                    color: black;
+                    transition:all 0.3s linear;
+                    -webkit-transition:all 0.3s linear;
+                    -moz-transition:all 0.3s linear;
+                    -ms-transition:all 0.3s linear;
+                    -o-transition:all 0.3s linear;
+
+                    &:hover{
+                        background-color: rgb(26, 24, 55);
+                        color: white;
+                    }
+                }
+            }
+
+            .nextPrev-div{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-top: 30px;
+                
+
+                
+
+                & .nextPrev_btn{
+                    padding: 6px 15px;
+                    border: 1px solid rgb(26, 24, 55);
+                    transition: all 0.3s linear;
+                    -webkit-transition: all 0.3s linear;
+                    -moz-transition: all 0.3s linear;
+                    -ms-transition: all 0.3s linear;
+                    -o-transition: all 0.3s linear;
+
+                    & a{
+                        color: black;
+                    }
+                    &:hover{
+                        background-color: rgb(26, 24, 55);
+
+                        & a{
+                            color: white;
+                        }
+                    }
+                }
+
+                & .number-div{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    & .numbers{
+                        margin-right: 10px;
+                        padding: 2px 5px;
+                        border: 1px solid rgb(26, 24, 55);
+                        transition: all 0.3s linear;
+                        -webkit-transition: all 0.3s linear;
+                        -moz-transition: all 0.3s linear;
+                        -ms-transition: all 0.3s linear;
+                        -o-transition: all 0.3s linear;
+
+                        & a{
+                            color: black;
+                        }
+                        &:hover{
+                            background-color: rgb(26, 24, 55);
+                            & a{
+                                color: white !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .col-lg-6{
+            margin-top: 50px;
+            
+        }
+
+        & .first{
+            padding-right: 20px;
+        }
+        & .second{
+            padding-left: 20px;
+        }
+
+        .col-lg-4{
+            padding-left: 50px !important;
+        
+            & .tagDiv{
+                margin-top: 20px;
+            }
+        
+        }
+    }
+}
+
+.sub-content-div{
+    border-bottom: 1px solid rgb(205, 203, 203);
+    height: 530px;
+
+    & .content-title{
+        font-size: 25px;
+        margin-bottom: 7px;
+        line-height: 30px;
+    }
+
+    & .content-subtitle{
+        font-size: 12px;
+        margin-bottom: 7px;
+    }
+
+    & img{
+        width: 100%;
+    }
+}
+.tags{
+    padding: 5px 15px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(205, 203, 203);
+    display: inline-block;
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+
+    & a{
+        color: black;
+    }
+
+    &:hover{
+        background-color: rgb(26, 24, 55);
+
+        & a{
+            color: white;
+        }
+    }
+}
+
+input{
+    padding: 15px;
+    width: 100%;
+    outline: none;
+    border: 1px solid rgb(205, 203, 203);
+}
+
+.recent-div{
+    border: 5px solid rgb(205, 203, 203);
+    margin-top: 40px;
+    padding: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+
+    & .recent-heading{
+        font-size: 25px;
+        margin: 10px 0px;
+    }
+}
+
+.recent-post-div{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding: 20px 0px;
+    border-bottom: 1px solid rgb(205, 203, 203);
+
+    & img{
+        width: 25%;
+    }
+
+    & .post-detail{
+        margin-left: 10px;
+        
+
+        & h3{
+            font-size: 15px;
+            color: black;
+            transition: all 0.3s linear;
+            -webkit-transition: all 0.3s linear;
+            -moz-transition: all 0.3s linear;
+            -ms-transition: all 0.3s linear;
+            -o-transition: all 0.3s linear;
+
+            &:hover{
+                color: rgb(221, 8, 8);
+            }
+        }
+
+        & p{
+            margin-bottom: 0px;
+            font-size: 10px;
+        }
+    }
+}
+
+.prev-btn{
+    color: transparent;
+    border: none !important;
+    &:hover{
+        background-color: transparent !important;
+    }
+}
+
+.num1{
+    background-color: rgb(26, 24, 55) !important;
+    & a{
+        color: white !important;
+
+        &:hover{
+            color: black !important;
+        }
+    }
+}
+
+/* .next-btn{
+    border: 1px solid rgb(26, 24, 55) !important;
+    & a{
+        color: black !important;
+    }
+    &:hover{
+        background-color: rgb(26, 24, 55) !important;
+        & a{
+            color: white !important;
+        }
+    }
+} */
