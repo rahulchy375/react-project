@@ -4,6 +4,8 @@ import { Container,Row, Col } from 'react-bootstrap';
 import { TbMathGreater } from "react-icons/tb";
 import { Link } from 'react-router-dom';
 
+import AboutImg from "../../../src/assets/aboutimg.png"
+
 const About = () => {
   return (
     <section id='about_section'>
@@ -16,7 +18,7 @@ const About = () => {
             <Row>
                 <Col lg = {6} className='img_div'>
                     <div className="aboutImg_div">
-                        <img src="../../src/assets/aboutimg.png" alt="" />
+                        <img src={AboutImg} alt="" />
                     </div>
                 </Col>
                 <Col lg = {6}>

@@ -4,12 +4,13 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import "./navs.css";
 import { Link } from 'react-router-dom';
+import LogoImg from "../../../src/assets/home-decor-logo.png";
 
 const Navs = () => {
   return (
     <Navbar expand="lg" className="navbarNav">
       <Container>
-        <Link to = "/"><img src="../../src/assets/home-decor-logo.png" alt="The logo of Home decor"/></Link>
+        <Link to = "/"><img src={LogoImg} alt="The logo of Home decor"/></Link>
         <Navbar.Toggle aria-controls="basic-navbar-nav"/>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">

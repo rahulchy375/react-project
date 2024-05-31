@@ -1,16 +1,21 @@
 import React from 'react'
 import "../content.css";
-// import "./con3.css";
 import { Container } from 'react-bootstrap';
 import { Row } from 'react-bootstrap'; 
 import { Col } from 'react-bootstrap'; 
 import { FaGreaterThan } from "react-icons/fa6";
 import Reusable from '../../../reusables/Reusable';
-import { Link } from 'react-router-dom';
-import { FaArrowRight } from "react-icons/fa";
 import Post from '../../../reusables/Post';
-import { FaArrowLeft } from "react-icons/fa";
 import Tags from '../../../reusables/Tags';
+
+import content1 from "../../../../src/assets/content-pic-1.jpg"
+import outdoor4 from "../../../../src/assets/outdoor4.jpg"
+import LivingImg3 from "../../../../src/assets/living room img3.jpg"
+import LivingImg4 from "../../../../src/assets/living room img4.jpg"
+import LivingImg5 from "../../../../src/assets/living5.jpg"
+import Fashion1 from "../../../../src/assets/fashion1.jpg"
+import Fashion2 from "../../../../src/assets/fashion2.jpg"
+import readingImg1 from "../../../../src/assets/reading room image.jpg"
 
 const Con4 = () => {
   return (
@@ -22,7 +27,7 @@ const Con4 = () => {
                         <p className="content-heading">You may prefer this kitchen</p>
                         <p className="content-date">May 13,2024/Kitchen,Lifestyle</p>
                         <div className="content-first-img">
-                            <img src="../../src/assets/content-pic-1.jpg" alt="Kitchen-img" />
+                            <img src={content1} alt="Kitchen-img" />
                         </div>
 
                         <p className="content-para">
@@ -38,7 +43,7 @@ const Con4 = () => {
                             <Reusable 
                                 title = "Icinia soluta. Lacus quas Icinia."
                                 subtitle = "November 21, 2017 / Kitchen, Living Room, Reading Room"
-                                img = {<img src="../../src/assets/fashion2.jpg" alt="reading room image" />}
+                                img = {<img src={Fashion2} alt="reading room image" />}
                                 para = "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur ab officiis porro officia. Praesentium facere quo voluptates sunt, eius eum!"
                             />
                         </Col>
@@ -46,7 +51,7 @@ const Con4 = () => {
                             <Reusable 
                                 title = "A beautiful outdoor with the nature"
                                 subtitle = "November 21, 2017 / Kitchen, Living Room, Reading Room"
-                                img = {<img src="../../src/assets/outdoor4.jpg" alt="reading room image" />}
+                                img = {<img src={outdoor4} alt="reading room image" />}
                                 para = "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur ab officiis porro officia. Praesentium facere quo voluptates sunt, eius eum!"
                             />
                         </Col>
@@ -57,7 +62,7 @@ const Con4 = () => {
                             <Reusable 
                                 title = "Crporis quae purus inventore Crporis!"
                                 subtitle = "November 21, 2017 / Kitchen, Living Room, Reading Room"
-                                img = {<img src="../../src/assets/living5.jpg" alt="reading room image" />}
+                                img = {<img src={LivingImg5} alt="reading room image" />}
                                 para = "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur ab officiis porro officia. Praesentium facere quo voluptates sunt, eius eum!"
                             />
                         </Col>
@@ -65,7 +70,7 @@ const Con4 = () => {
                             <Reusable 
                                 title = "Litora aptent magnam laoreet aptent!"
                                 subtitle = "November 21, 2017 / Kitchen, Living Room, Reading Room"
-                                img = {<img src="../../src/assets/fashion1.jpg" alt="reading room image" />}
+                                img = {<img src={Fashion1} alt="reading room image" />}
                                 para = "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur ab officiis porro officia. Praesentium facere quo voluptates sunt, eius eum!"
                             />
                         </Col>
@@ -78,27 +83,27 @@ const Con4 = () => {
                     <div className="recent-div">
                         <p className='recent-heading'>Recent Posts</p>
 
-                        <Post img = {<img src="../../src/assets/content-pic-1.jpg" alt="" />}
+                        <Post img = {<img src={content1} alt="" />}
                               title = "The unique kitchen"
                               para = "In Kitchen, Lifestyle"
                         />
-                        <Post img = {<img src="../../src/assets/reading room image.jpg"alt=""/>}
+                        <Post img = {<img src={readingImg1} alt=""/>}
                               title = "Taciti hendrerit dis odit"
                               para = "In Kitchen, Living Room, Reading Room"
                         />
-                        <Post img = {<img src="../../src/assets/living room img3.jpg"alt=""/>}
+                        <Post img = {<img src={LivingImg3} alt=""/>}
                               title = "Sunt doloremque blandit inven"
                               para = "In Living Room"
                         />
-                        <Post img = {<img src="../../src/assets/reading room image.jpg"alt=""/>}
+                        <Post img = {<img src={readingImg1} alt=""/>}
                               title = "Fugit quaerat vulputate! Irure."
                               para = "In Living Room"
                         />
-                        <Post img = {<img src="../../src/assets/living room img4.jpg"alt=""/>}
+                        <Post img = {<img src={LivingImg4} alt=""/>}
                               title = "Litora aptent magnam laoreet!."
                               para = "In Living Room"
                         />
-                        <Post img = {<img src="../../src/assets/living room img3.jpg"alt=""/>}
+                        <Post img = {<img src={LivingImg3} alt=""/>}
                               title = "Sunt doloremque blandit inven"
                               para = "In Living Room"
                         />
