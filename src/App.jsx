@@ -1,6 +1,6 @@
 import './App.css'
 import Layout from './layout/Layout';
-import HomePage from './pages/HomePage'
+import HomePage from './pages/HomePage';
 
 import {
   createBrowserRouter,
