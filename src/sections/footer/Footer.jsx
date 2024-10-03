@@ -35,8 +35,8 @@ const Footer = () => {
                     </div>
                     <p className="footer_para">
                         Pahartali, Alongkar,Chattogram.
-                        +8801884805902 |+8801796807939
-                        {/* rahulchy375@gmail.com */}
+                        +8801884805902 | +8801796807939
+                        rahulchy375@gmail.com
                     </p>
                 </Col>
             </Row>
